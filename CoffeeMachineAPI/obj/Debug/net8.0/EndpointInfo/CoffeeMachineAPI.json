@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "CoffeeMachineAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/brew-coffee": {
+      "get": {
+        "tags": [
+          "BrewCoffee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
